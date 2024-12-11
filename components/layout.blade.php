@@ -39,10 +39,10 @@
                 <!-- Линкове в навигацията -->
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Добави книга</a>
+                        <a class="nav-link" href="{{route('books_create')}}">Добави книга</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Списък с книги</a>
+                        <a class="nav-link" href="{{route('books')}}">Списък с книги</a>
                     </li>
                 </ul>
             </div>
